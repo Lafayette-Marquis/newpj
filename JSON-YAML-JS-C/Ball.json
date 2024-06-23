@@ -1,0 +1,10 @@
+{
+    "type": "ball",
+    "properties": {
+        "radius": 10,
+        "color": "blue",
+        "bounce":{
+            "x": "dx",
+            "y": "dy"
+        }
+    }}
