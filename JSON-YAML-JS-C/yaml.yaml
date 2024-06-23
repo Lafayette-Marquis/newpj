@@ -1,0 +1,9 @@
+ball:
+  shape: sphere
+  material: rubber
+  physics:
+    - bounce: true
+    - friction: low
+    - gravity: false
+    - collisionDetection: true
+  colors: [blue, red, orange, pruple, green]
