@@ -1,0 +1,21 @@
+---
+People:
+  - name: Bob
+    age: 21
+    address: Boca Raton, Florida(FL), 33432
+Animal: Dog
+Fruit: Apple
+Meal: "Vegtable Lasagna"
+Drinks:
+  - Smoothie
+  - Water
+Meals:
+  - "Vegtable Lasagna"
+  - "Tomato Soup"
+  - Burger
+Burger:
+  Calories: 200
+  Price: 15
+Smoothie:
+  Calories: 80
+  Price: 5
