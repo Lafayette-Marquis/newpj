@@ -1,8 +1,8 @@
 ---
 People:
-  - name: Bob
-    age: 21
-    address: Boca Raton, Florida(FL), 33432
+  - name: Elisha
+    age: 16
+    address: woodbury, GA, 30293
 Animal: Dog
 Fruit: Apple
 Meal: "Vegtable Lasagna"
@@ -19,3 +19,17 @@ Burger:
 Smoothie:
   Calories: 80
   Price: 5
+OtherMeals:
+  - "Beans"
+  - "Pizza"
+  - "Salad"
+  - "Taco"
+  - "Pasta"
+  - "Soup"
+  - "Burger"
+  - "Sandwich"
+IngrediantsInMeals:
+  - "Steak"
+  - "Chicken"
+  - "Pork"
+  - "Fish"
