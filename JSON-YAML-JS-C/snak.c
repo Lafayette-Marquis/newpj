@@ -1,5 +1,4 @@
-// C program to build the complete 
-// snake game 
+// C program to build the complete snake game 
 #include <conio.h> 
 #include <stdio.h> 
 #include <stdlib.h> 
