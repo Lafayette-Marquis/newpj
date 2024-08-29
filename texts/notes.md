@@ -89,4 +89,8 @@
 - Shamanism
 - Orthodox Christianity
 
+# Taika Reform
+- Establishment of the Taika system
+- Reorganization of the government
+
 # 
