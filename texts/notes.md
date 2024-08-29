@@ -17,3 +17,12 @@
 - Rebellion of An Lushan, which weakened the dynasty
 - Decline and eventual fall of the dynasty in 907 CE
 
+# Notable events of Vietnam's history
+- Establishment of the Vietnamese kingdom of Van Lang in the 3rd century BCE
+- Establishment of the Ngo dynasty in the 10th century CE
+- Establishment of the Tran dynasty in the 13th century CE
+- Establishment of the Le dynasty in the 15th century CE
+- Establishment of the Nguyen dynasty in the 18th century CE
+- French colonization of Vietnam in the 19th century CE
+- Vietnamese War of Independence
+- Reunification of Vietnam in 1975
