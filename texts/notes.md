@@ -78,3 +78,15 @@
 - Yuan Dynasty (1271-1368 CE)
 - Ming Dynasty (1368-1644 CE)
 - Qing Dynasty (1644-1912 CE)
+
+# religions of Asia
+- Buddhism
+- Hinduism
+- Confucianism
+- Taoism
+- Shintoism
+- Jainism
+- Shamanism
+- Orthodox Christianity
+
+# 
