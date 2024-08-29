@@ -91,6 +91,4 @@
 
 # Taika Reform
 - Establishment of the Taika system
-- Reorganization of the government
-
-# 
+- Reorganization of the government and military
