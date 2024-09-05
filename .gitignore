@@ -5,3 +5,6 @@ __pycache__
 Zippathy lezap
 *.exe
 *.zip
+*.pyc
+*.pyo
+*.pyd
