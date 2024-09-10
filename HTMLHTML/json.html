@@ -8,7 +8,10 @@
             '{ "firstName":"Peter" , "lastName":"Jones" } ]}';
             const obj = JSON.parse(text);
         </script>
+        <center>
+        <h1>Current employees</h1>
         <p id="demo"></p>
+        </center>
         <script>
         document.getElementById("demo").innerHTML =
         obj.employees[0].firstName + " " + obj.employees[0].lastName + ", " +
