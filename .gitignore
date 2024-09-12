@@ -8,3 +8,5 @@ Zippathy lezap
 *.pyc
 *.pyo
 *.pyd
+*.md
+texts
