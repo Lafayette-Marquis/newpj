@@ -2,8 +2,9 @@ from datetime import date
 from datetime import time
 import random
 import string
+import re
 
-print("Welcome to the hub! You have a few options, a password generator, playing mad libs, or playing rock, paper, scissors, lizard, spock, calculate a rectangle's area, . Which one do you want to use?")
+print("Welcome to the hub! You have a few options, for a password generator, type 'password', for playing mad libs, type 'Mad Libs' for playing rock, paper, scissors, lizard, spock, type 'RPSLS', for calculating a rectangle's area, type 'rectangle'. Which one do you want to use?")
 
 choice = input()
 
@@ -39,15 +40,31 @@ if choice == "password":
     print(" ")
 
 elif choice == "Mad Libs" or choice == "mad libs" or choice == "madlibs":
+    def detect_text_type(input_variable):
+        # Check if the input is a string
+        if isinstance(input_variable, str):
+            # Further logic can be done to filter out non-text strings if needed (e.g., empty strings)
+            if input_variable.strip():  # Reject empty or whitespace-only strings
+                return f"The input is a valid text string: {type(input_variable).__name__}"
+            else:
+                return "Rejected: The input is an empty string."
+        else:
+            return f"Rejected: The input is of type {type(input_variable).__name__}, which is not a text-based string."
     print("Welcome to Mad Libs!")
     storymode = input("Which madlib would you like to play? 1, 2, or 3: ")
     if storymode == "1":
         noun1 = input("Enter a noun: ")
-        if noun1 != type(string):
-            print("words must be text, please rerun and try again")
+        for inp in noun1:
+            result = detect_text_type(inp)
+            print(f"Input: {inp!r} => {result}")
+            if result is not type(str):
+                print("You must enter text")
+                exit(0)
+            elif result == type(str): "Good job, that's a string"
         noun2 = input("Enter another noun: ")
-        if noun2 != type(string):
-            print("words must be text, please try again")
+        for inp in noun1:
+            result = detect_text_type(inp)
+        print(f"Input: {inp!r} => {result}")
         adjective1 = input("Enter an adjective: ")
         if adjective1 != type(string):
             print("words must be text, please rerun and try again")
@@ -108,7 +125,7 @@ elif choice == "Mad Libs" or choice == "mad libs" or choice == "madlibs":
     print("Thanks for playing Mad Libs!")
     print(" ")
 
-elif choice == "Rock, Paper, Scissors, Lizard, Spock" or choice == "rock, paper, scissors, lizard, spock":
+elif choice == "Rock, Paper, Scissors, Lizard, Spock" or choice == "rock, paper, scissors, lizard, spock" or choice == "RPSLS":
     user_threw = input("What do you want to throw - rock, paper, scissors, lizard, or spock? ")
     if (
         (user_threw == "rock") 
