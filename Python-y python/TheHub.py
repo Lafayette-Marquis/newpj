@@ -3,7 +3,7 @@ from datetime import time
 import random
 import string
 
-print("Welcome to the hub! You have three options, a password generator, playing mad libs, or playing rock, paper, scissors, lizard, spock, or calculate a rectangle. Which one do you want to play?")
+print("Welcome to the hub! You have a few options, a password generator, playing mad libs, or playing rock, paper, scissors, lizard, spock, calculate a rectangle's area, . Which one do you want to use?")
 
 choice = input()
 
