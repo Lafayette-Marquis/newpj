@@ -28,16 +28,16 @@ if storymode == "1":
         result = detect_text_type(inp)
     print(f"Input: {inp!r} => {result}")
     adjective1 = input("Enter an adjective: ")
-    if adjective1 != type(string):
+    if adjective1 != type(str):
         print("words must be text, please rerun and try again")
     adjective2 = input("Enter another adjective: ")
-    if adjective2 is not type(string):
+    if adjective2 is not type(str):
         print("words must be text, please rerun and try again")
     verb1 = input("Enter a verb: ")
-    if verb1 == type(string):
+    if verb1 == type(str):
         print("words must be text, please rerun and try again")
     verb2 = input("Enter another verb: ")
-    if verb2 == type(string):
+    if verb2 == type(str):
         print("words must be text, So thank you!")
     story = "Once upon a time there was a " + adjective1 + " " + noun1 + " who loved to " + verb1 + ". The " + noun1 + " wanted to " + verb2 + " the " + adjective2 + " " + noun2 + ", So the " + noun1 + " " + verb1 +" over to the " + noun2 + " and they " + verb2 + " all day long."
 
@@ -55,10 +55,10 @@ elif storymode == "2":
     if adjective2 != type(str):
         print("words must be text, please rerun and try again")
     verb1 = input("Enter a verb: ")
-    if verb1 != type(string):
+    if verb1 != type(str):
         print("words must be text, please rerun and try again")
     verb2 = input("Enter another verb: ")
-    if verb2 != type(string):
+    if verb2 != type(str):
         print("words must be text, please rerun and try again")
     pronoun1 = input("Enter a name for your character:")
     if pronoun1 != type(str):
@@ -67,7 +67,7 @@ elif storymode == "2":
 
 else:
     date1 = input("Enter a date: ")
-    if date1 != type(str):
+    if date1 != type(float):
         print("Please enter a valid date")
     name1 = input("Enter a name: ")
     if name1 != type(str):
