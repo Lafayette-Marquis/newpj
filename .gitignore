@@ -1,7 +1,11 @@
 # Created by pytest automatically.
+# pycache folder
 __pycache__
+# Pytest cache folder
 .pytest_cache
+# VSCode cache folder
 .vscode
+# zip sile folder
 Zippathy lezap
 *.exe
 *.zip
