@@ -22,17 +22,16 @@ def detect_text_type(input_variable):
         return f"Rejected: The input is of type {type(input_variable).__name__}, which is not a text-based string."
 
 # Example usage:
-inputs = input()
-#[
-#    "Hello, world!",     # Valid text
-#    "",                  # Empty string
-#    "   ",              # Whitespace string
-#    123,                # Integer
-#    45.67,              # Float
-#    [1, 2, 3],          # List
-#    {'key': 'value'},   # Dictionary
-#    None                 # NoneType
-#]
+inputs =[
+    "Hello, world!",     # Valid text
+    "",                  # Empty string
+    "   ",              # Whitespace string
+    123,                # Integer
+    45.67,              # Float
+    [1, 2, 3],          # List
+    {'key': 'value'},   # Dictionary
+    None                 # NoneType
+]
 
 for inp in inputs:
     result = detect_text_type(inp)
