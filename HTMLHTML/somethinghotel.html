@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        body {background-color: black;}
+        h1 {
+            font-family: Hylia Serif Beta;
+            font-size: 100px;
+            color: white;
+        }
+        p {
+            font-family: Hylia Serif Beta;
+            font-size: 30px;
+            color: white;
+        }
+        #employees {
+            font-family: Hylia Serif Beta;
+            font-size: 20px;
+            color: white;
+        }
+        #employees list {
+            font-family: Hylia Serif Beta;
+            font-size: 20px;
+            color: white;
+        }
+        #headings {
+            font-family: Hylia Serif Beta;
+            font-size: 20px;
+            color: white;
+        }
+    </style>
+    <script>
+        let text = '{ "employees" : [' +
+        '{ "firstName":"Lexi" , "lastName":"Rejunski", "jobtitle":"Host"},' +
+        '{ "firstName":"Charlotte" , "lastName":"Smith", "jobittle":"Barista"},' +
+        '{ "firstName":"Peter" , "lastName":"Parker", "jobtitle":"Housekeeper manager"},' + 
+        '{ "firstName":"Javier" , "lastName":"Javier", "jobtitle":"Housekeeper"} ]}';
+               const obj = JSON.parse(text);/*list of the employees to be typed*/
+    </script>
+    <body>
+        <h1 id="Heading">Welcome to the Something Hotel!</h1>
+        <h2 id="employees list">Our amazing employees are:</h2>
+        <p id="employees"></p>
+        <!--<table>
+            <tr id="headings">
+              <th>First Name</th>
+              <th>Last Name</th>
+              <th>Job</th>
+            </tr>
+            <tr id="Lexi">
+              <td>Lexi</td>
+              <td>Rejunski</td>
+              <td>Host</td>
+            </tr>
+            <tr id="Charlie">
+                <td>Charlotte</td>
+                <td>Smith</td>
+                <td>Barista</td>
+            </tr>
+            <tr id="Peter">
+                <td>Peter</td>
+                <td>Parker</td>
+                <td>Housekeeping Manager</td>
+            </tr>
+            <tr id="Javier">
+                <td>Javier</td>
+                <td>Javier</td>
+                <td>Housekeeper</td>
+            </tr>
+          </table>-->
+        <p>(P.S., Charlotte goes by Charlie, if you don't call her that you'll get an annoyed Charlie)</p>
+    </body>
+    <script>
+        document.getElementById("employees").innerHTML =
+        obj.employees[0].firstName + " " + obj.employees[0].lastName + ", " + obj.employees[0].jobtitle + ", " +
+        obj.employees[1].firstName + " " + obj.employees[1].lastName + ", " + obj.employees[1].jobtitle + ", " +
+        obj.employees[2].firstName + " " + obj.employees[2].lastName + ", " + obj.employees[2].jobtitle + ", " +
+        obj.employees[3].firstName + " " + obj.employees[3].lastName + ", " + obj.employees[3].jobtitle + ".";
+    </script>
+</html>
