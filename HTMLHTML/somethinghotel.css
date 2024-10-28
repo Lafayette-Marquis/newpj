@@ -1,0 +1,48 @@
+body {background-color: rgb(255, 255, 255);}
+h1 {
+    font-family: Hylia Serif Beta;
+    font-size: 100px;
+    color: rgb(0, 0, 0);
+}
+p {
+    font-family: Hylia Serif Beta;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+#employees {
+    font-family: Fenwick Woodtype;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+#employees list {
+    font-family: Hylia Serif Beta;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+#headings {
+    font-family: Hylia Serif Beta;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+button {
+    font-family: Hylia Serif Beta;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    margin: 10px;
+    padding: 20px;
+}
+body.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+body.dark-mode p {
+    color: white; /* Ensure all <p> tags turn white in dark mode */
+}
+
+body.dark-mode h1 {
+    color: white; /* Ensure <h1> tags also turn white */
+}
+body.dark-mode #employees {
+    color: white; /* Ensure <h1> tags also turn white */
+}

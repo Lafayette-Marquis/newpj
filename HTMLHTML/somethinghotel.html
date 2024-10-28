@@ -1,45 +1,26 @@
 <!DOCTYPE html>
 <html>
-    <style>
-        body {background-color: black;}
-        h1 {
-            font-family: Hylia Serif Beta;
-            font-size: 100px;
-            color: white;
-        }
-        p {
-            font-family: Hylia Serif Beta;
-            font-size: 30px;
-            color: white;
-        }
-        #employees {
-            font-family: Hylia Serif Beta;
-            font-size: 20px;
-            color: white;
-        }
-        #employees list {
-            font-family: Hylia Serif Beta;
-            font-size: 20px;
-            color: white;
-        }
-        #headings {
-            font-family: Hylia Serif Beta;
-            font-size: 20px;
-            color: white;
-        }
-    </style>
+<!--<link rel="stylesheet" href="Somethinghotel.css">-->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dark Mode Toggle</title>
+        <link rel="stylesheet" href="somethinghotel.css">
+    </head>
     <script>
         let text = '{ "employees" : [' +
         '{ "firstName":"Lexi" , "lastName":"Rejunski", "jobtitle":"Host"},' +
-        '{ "firstName":"Charlotte" , "lastName":"Smith", "jobittle":"Barista"},' +
+        '{ "firstName":"Charlotte" , "lastName":"Smith", "jobtitle":"Barista"},' +
         '{ "firstName":"Peter" , "lastName":"Parker", "jobtitle":"Housekeeper manager"},' + 
         '{ "firstName":"Javier" , "lastName":"Javier", "jobtitle":"Housekeeper"} ]}';
                const obj = JSON.parse(text);/*list of the employees to be typed*/
     </script>
     <body>
+        <button id="toggle-button">Switch to Dark Mode</button>
         <h1 id="Heading">Welcome to the Something Hotel!</h1>
         <h2 id="employees list">Our amazing employees are:</h2>
         <p id="employees"></p>
+        <script src="script.js"></script>
         <!--<table>
             <tr id="headings">
               <th>First Name</th>

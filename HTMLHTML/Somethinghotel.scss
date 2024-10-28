@@ -1,0 +1,31 @@
+
+$mainbackground: #000000;
+$mainfontc: #ffffff;
+$mainfontf: Fenwick Woodtype
+
+body {background-color: $mainbackground};
+h1 {
+    font-family: Hylia Serif Beta;
+    font-size: 100px;
+    color: white;
+}
+p {
+    font-family: $mainfontf;
+    font-size: 30px;
+    color: white;
+}
+#employees {
+    font-family: Hylia Serif Beta;
+    font-size: 20px;
+    color: white;
+}
+#employees list {
+    font-family: Hylia Serif Beta;
+    font-size: 20px;
+    color: white;
+}
+#headings {
+    font-family: Hylia Serif Beta;
+    font-size: 20px;
+    color: white;
+}
