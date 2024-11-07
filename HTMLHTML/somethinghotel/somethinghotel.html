@@ -7,14 +7,6 @@
         <title>The Something Hotel!!</title>
         <link rel="stylesheet" href="somethinghotel.css">
     </head>
-    <script>
-        let text = '{ "employees" : [' +
-        '{ "firstName":"Lexi" , "lastName":"Rejunski", "jobtitle":"Host"},' +
-        '{ "firstName":"Charlotte" , "lastName":"Smith", "jobtitle":"Barista"},' +
-        '{ "firstName":"Peter" , "lastName":"Parker", "jobtitle":"Housekeeper manager"},' + 
-        '{ "firstName":"Javier" , "lastName":"Javier", "jobtitle":"Housekeeper"} ]}';
-               const obj = JSON.parse(text);/*list of the employees to be typed*/
-    </script>
     <body>
         <button id="toggle-button">Switch to Dark Mode</button>
         <h1 id="Heading">Welcome to the Something Hotel!</h1>
@@ -50,11 +42,4 @@
         </table>
         <p id="C">(P.S. Charlotte goes by Charlie, if you don't call her that you'll get an annoyed Charlie)</p>
     </body>
-    <script>
-        document.getElementById("employees").innerHTML =
-        obj.employees[0].firstName + " " + obj.employees[0].lastName + " is the " + obj.employees[0].jobtitle + ", " +
-        obj.employees[1].firstName + " " + obj.employees[1].lastName + " is the " + obj.employees[1].jobtitle + ", " +
-        obj.employees[2].firstName + " " + obj.employees[2].lastName + " is the " + obj.employees[2].jobtitle + ", " +
-        obj.employees[3].firstName + " " + obj.employees[3].lastName + " is the " + obj.employees[3].jobtitle + ".";
-    </script>
 </html>
