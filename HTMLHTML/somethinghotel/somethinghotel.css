@@ -46,3 +46,6 @@ body.dark-mode h1 {
 body.dark-mode #employees {
     color: white; /* Ensure <h1> tags also turn white */
 }
+p#C {
+    font-size: "12px";
+}
