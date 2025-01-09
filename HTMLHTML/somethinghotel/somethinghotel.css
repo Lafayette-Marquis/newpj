@@ -3,11 +3,7 @@ h1 {
     font-family: Fenwick Woodtype;
     font-size: 150px;
 }
-p {
-    font-family: Comic Sans MS;
-    font-size: 30px;
-    color: rgb(0, 0, 0);
-}
+
 #employees {
     font-family: Fenwick Woodtype;
     font-size: 20px;
@@ -24,7 +20,7 @@ p {
     color: rgb(0, 0, 0);
 }
 button {
-    font-family: Hylia Serif Beta;
+    font-family: Comic Sans MS;
     font-size: 20px;
     color: rgb(0, 0, 0);
     margin: 10px;
