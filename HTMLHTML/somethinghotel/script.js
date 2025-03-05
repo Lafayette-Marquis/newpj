@@ -2,9 +2,9 @@ let text = '{ "employees" : [' +
 '{ "firstName":"Lexi" , "lastName":"Rejunski", "jobtitle":"Host"},' +
 '{ "firstName":"Charlotte" , "lastName":"Smith", "jobtitle":"Barista"},' +
 '{ "firstName":"Peter" , "lastName":"Parker", "jobtitle":"Housekeeper manager"},' + 
-'{ "firstName":"Javier" , "lastName":"Javier", "jobtitle":"Housekeeper"}' +
+'{ "firstName":"Javier" , "lastName":"Javier", "jobtitle":"Housekeeper"},' +
 '{ "firstName":"Malachi", "lastName":"Anderson", "jobtitle":"Kitchen Staff Manager"} ]}';
-       const obj = JSON.parse(text);/*list of the employees to be typed*/
+const obj = JSON.parse(text);/*list of the employees to be typed*/
 
 const toggleButton = document.getElementById('toggle-button');
 const link = document.getElementById('Link')
