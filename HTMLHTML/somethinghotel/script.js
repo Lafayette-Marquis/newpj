@@ -1,5 +1,5 @@
 let text = '{ "employees" : [' +
-'{ "firstName":"Lexi" , "lastName":"Rejunski", "jobtitle":"Host"},' +
+'{ "firstName":"Aila" , "lastName":"Rejunski", "jobtitle":"Host"},' +
 '{ "firstName":"Charlotte" , "lastName":"Smith", "jobtitle":"Barista"},' +
 '{ "firstName":"Peter" , "lastName":"Parker", "jobtitle":"Housekeeper manager"},' + 
 '{ "firstName":"Javier" , "lastName":"Javier", "jobtitle":"Housekeeper"},' +
