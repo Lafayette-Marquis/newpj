@@ -1,4 +1,5 @@
 # Created by pytest automatically.
+#Files that Git will ignore completely.
 # pycache folder
 __pycache__
 # Pytest cache folder
@@ -7,10 +8,12 @@ __pycache__
 .vscode
 # zip sile folder
 Zippathy lezap
+# All .exe, .zip, .pyc, .pyo, .pyd, .md files
 *.exe
 *.zip
 *.pyc
 *.pyo
 *.pyd
 *.md
+#Folder titled "Texts"
 texts
