@@ -1,4 +1,4 @@
-program hello
+program test1
   print *, 'Hello, World!'
   implicit none
 
@@ -13,4 +13,4 @@ program hello
   initial = 'A'
   isOkay = .false.
   print *, amount, pi, frequency, initial, isOkay
-end program hello
+end program test1
