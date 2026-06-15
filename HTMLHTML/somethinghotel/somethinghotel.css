@@ -35,7 +35,7 @@ body.dark-mode p {
 }
 
 body.dark-mode h1 {
-    color: white; /* Ensure <h1> tags also turn white */
+    color: white; /* Ensure <h1> tags also turn white*/
 }
 body.dark-mode #employees {
     color: white; /* Ensure <h1> tags also turn white */
