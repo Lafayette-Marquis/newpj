@@ -2,16 +2,6 @@ import re
 import sys
 
 string = str
-#def detect_text_type(input_variable): # isinstance supposed to check for type, .isalpha() works better
-#        # Check if the input is a string
-#        if isinstance(input_variable, str):
-#            # Further logic can be done to filter out non-text strings if needed (e.g., empty strings)
-#            if input_variable.strip():  # Reject empty or whitespace-only strings
-#                return f"The input is a valid text string: {type(input_variable).__name__}"
-#            else:
-#                return "Rejected: The input is an empty string."
-#        else:
-#            return f"Rejected: The input is of type {type(input_variable).__name__}, which is not a text-based string."
 def isalphacheck(input_variable):
     if input_variable.isalpha(): # Check if input contains ONLY alphabet characters and entirely rejects any numbers or symbols
         return f"The input is a valid text string: {type(input_variable).__name__}"
