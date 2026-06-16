@@ -8,4 +8,4 @@ def areaOfACircle(radius):
   
   area = math.pi * radius * radius
   return area
-areaOfACircle(100)
+areaOfACircle(float(input("What is the radius of the circle? ")))
