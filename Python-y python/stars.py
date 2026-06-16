@@ -7,7 +7,7 @@ def draw_star(t):
 
 alexa = turtle.Turtle()
 wn = turtle.Screen()
-for i in range(5):
+for i in range(8):
   draw_star(alexa)
-  alexa.right(90)
+  alexa.right(45)
 wn.exitonclick()
