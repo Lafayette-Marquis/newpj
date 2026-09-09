@@ -6,6 +6,9 @@ let text = '{ "employees" : [' +
 '{ "firstName":"Malachi", "lastName":"Anderson", "jobtitle":"Kitchen Staff Manager"} ]}';
 const obj = JSON.parse(text);/*list of the employees to be typed*/
 
+let text2 = '{ "spaces" : [' +
+'{ "justspace":" ", "bridger":" who is the "} ]}';
+const obj2 = JSON.parse(text2);
 const toggleButton = document.getElementById('toggle-button');
 const link = document.getElementById('Link')
 const body = document.body;
@@ -21,7 +24,7 @@ toggleButton.addEventListener('click', () => {
     }
 });
 document.getElementById("employees").innerHTML =
-        obj.employees[0].firstName + " " + obj.employees[0].lastName + ", who is the " + obj.employees[0].jobtitle + ", " +
+        obj.employees[0].firstName + obj2.spaces[0].justspace + obj.employees[0].lastName + obj2.spaces[0].bridger + obj.employees[0].jobtitle + ", " +
         obj.employees[1].firstName + " " + obj.employees[1].lastName + ", who is the " + obj.employees[1].jobtitle + ", " +
         obj.employees[2].firstName + " " + obj.employees[2].lastName + ", who is the " + obj.employees[2].jobtitle + ", " +
         obj.employees[3].firstName + " " + obj.employees[3].lastName + ", who is the " + obj.employees[3].jobtitle + ", " +
