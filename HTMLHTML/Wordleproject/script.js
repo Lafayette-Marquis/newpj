@@ -1,4 +1,4 @@
-console.log('We have been visited')
+console.log('version 1.0.0'); // log version to console
 const secret = 'forty'; // the secret word
 
 const input = document.getElementById('input');
